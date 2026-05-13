@@ -9,6 +9,25 @@ version: 0.1.0-PHASE-1
 status: PHASE-1-SCAFFOLD
 crux-mk: true
 
+default_action:
+  description: "KPM Rebalance-Empfehlungs-Engine (Variante-D Hybrid) - berechnet Soll-Allokation Kapital/Asset-Klassen pro Familienmitglied + Drawdown-Caps + Rebalance-Vorschlag (Empfehlungs-only, KEIN Auto-Execute)"
+  rho_per_run_eur: 250
+  rho_validation_source: unvalidated
+  block_gates:
+    - gate_id: K13_PAV
+      block_reason: "Pre-Action-Verification PFLICHT bei K_0-Direct: env_tag (Sandbox-Default Pflicht) + Variante-D-Drawdown-Caps + Mock-Familie-Default + KEIN-Auto-Execute"
+      false_block_cost_eur: 180
+      legitimate_block_condition: "Production-Mode ohne PHRONESIS_TICKET Martin ODER Auto-Execute-Attempt (verboten) ODER Variante-D-Drawdown-Cap-Verletzung"
+    - gate_id: K11
+      block_reason: "Cascade-Containment: Engine-Fail darf KEINE anderen KPM-DFs (Family-Distribution) beeinflussen"
+      false_block_cost_eur: 100
+      legitimate_block_condition: "Engine-Crash ODER Real-Market-Data-Feed down (dann Mock-Fallback)"
+    - gate_id: K16
+      block_reason: "Concurrent-Spawn auf KPM-State-OUT_DIR verhindert (Race-Condition bei Rebalance-State)"
+      false_block_cost_eur: 80
+      legitimate_block_condition: "Lock-File jünger als 6h existiert + andere KPM-Engine-PID via pgrep detected"
+  graceful_degradation_path: "Sandbox-Empfehlungs-only-Mode mit Mock-Familie + Mock-Markt-Daten (KEIN Real-Capital-Touch)"
+
 k0_touch: true
 k0_caveats:
   - "Familien-Vermoegen Direct-Berührung (Empfehlungs-only)"
