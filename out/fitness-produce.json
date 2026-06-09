@@ -1,9 +1,9 @@
 {
   "df": "df-kpm-rebalance-engine",
-  "ts": "2026-06-08T00:00:22.879446+00:00",
-  "ok": false,
-  "bytes": 155,
-  "model": "kemmer-70b-ctx8k",
+  "ts": "2026-06-09T02:28:51.413158+00:00",
+  "ok": true,
+  "bytes": 6939,
+  "model": "kemmer-14b-ctx8k",
   "mode": "produce",
-  "duration_s": 600.0
+  "duration_s": 48.7
 }
