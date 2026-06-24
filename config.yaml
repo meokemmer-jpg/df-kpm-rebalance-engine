@@ -163,3 +163,8 @@ crux_bindung:
   Q_0: "Konsistente Variante-D-Recommendations"
   I_min: "Strukturierte Bayesian-Decision-Logic + Kelly-Calc"
   W_0: "Martin-Bandbreite minimiert via Pre-Computed-Recommendations"
+K13_external_anchor_type: verified_web_sources
+K13_external_anchor_validation_frequency: per_anchor_run
+K13_external_anchor_count: 2
+K13_external_anchor_evidence: https://www.bundesbank.de/de/aufgaben/geldpolitik/zinssaetze/zinssaetze-604558
+K13_anchored_ts: 2026-06-23T16:28:59.955756+00:00
