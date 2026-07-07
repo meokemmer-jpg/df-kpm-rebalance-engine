@@ -1,9 +1,9 @@
 {
   "df": "df-kpm-rebalance-engine",
-  "ts": "2026-07-06T06:51:07.757126+00:00",
+  "ts": "2026-07-07T00:54:01.703048+00:00",
   "maturity": "TESTED",
   "maturity_level": 4,
   "evidence_grade": 4,
-  "wargame_verdict": null,
+  "wargame_verdict": "CONDITIONAL",
   "crux": "[CRUX-MK]"
 }
