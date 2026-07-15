@@ -1,0 +1,6 @@
+{
+  "verdict": "HOLDS",
+  "reason": "Der Test fuehrt den echten CLI-Entrypoint mit zwei gegensaetzlichen JSON-Snapshots aus und belegt unterschiedliche, fachlich passende Empfehlungen plus Audit-Verknuepfung statt nur Konstanten oder Mocks zu pruefen.",
+  "ts": "2026-07-14T14:40:31.359252+00:00",
+  "attempts": 1
+}
