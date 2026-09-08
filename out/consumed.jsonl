@@ -98,3 +98,15 @@
 {"ts": "2026-09-07T01:45:26.183716+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
 {"ts": "2026-09-07T02:15:27.586801+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
 {"ts": "2026-09-07T02:45:43.636487+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T03:15:58.214859+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T03:30:26.627987+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T04:01:17.228689+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T04:32:15.678814+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T05:03:36.852685+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T05:35:28.372471+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T06:05:47.659102+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T06:36:54.163570+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T07:07:07.776645+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T07:37:08.920626+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T08:07:49.021661+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-07T08:39:50.716365+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
