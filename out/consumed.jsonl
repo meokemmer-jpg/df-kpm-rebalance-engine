@@ -110,3 +110,4 @@
 {"ts": "2026-09-07T07:37:08.920626+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
 {"ts": "2026-09-07T08:07:49.021661+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
 {"ts": "2026-09-07T08:39:50.716365+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-artifact-collector", "purpose": "index", "crux": "[CRUX-MK]", "valid": true}
+{"ts": "2026-09-24T15:28:36.725237+00:00", "producer": "df-kpm-rebalance-engine", "by": "df-domain-nlm-sync", "purpose": "nlm-board", "crux": "[CRUX-MK]", "valid": true}
